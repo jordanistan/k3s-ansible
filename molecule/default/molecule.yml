@@ -14,7 +14,7 @@ platforms:
       - master
     interfaces:
       - network_name: private_network
-        ip: 192.168.30.38
+        ip: 192.168.87.38
     config_options:
       # We currently can not use public-key based authentication on Ubuntu 22.04,
       # see: https://github.com/chef/bento/issues/1405
@@ -30,7 +30,7 @@ platforms:
       - master
     interfaces:
       - network_name: private_network
-        ip: 192.168.30.39
+        ip: 192.168.87.39
 
   - name: control3
     box: generic/rocky9
@@ -41,7 +41,7 @@ platforms:
       - master
     interfaces:
       - network_name: private_network
-        ip: 192.168.30.40
+        ip: 192.168.87.40
 
   - name: node1
     box: generic/ubuntu2204
@@ -52,7 +52,7 @@ platforms:
       - node
     interfaces:
       - network_name: private_network
-        ip: 192.168.30.41
+        ip: 192.168.87.41
     config_options:
       # We currently can not use public-key based authentication on Ubuntu 22.04,
       # see: https://github.com/chef/bento/issues/1405
@@ -68,7 +68,7 @@ platforms:
       - node
     interfaces:
       - network_name: private_network
-        ip: 192.168.30.42
+        ip: 192.168.87.42
 
 provisioner:
   name: ansible

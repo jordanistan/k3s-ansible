@@ -30,11 +30,11 @@ Make sure that the following software packages are available on your system:
 
 _You can safely skip this if you are working on Windows._
 
-Furthermore, the test cluster uses the `192.168.30.0/24` subnet which is [not set up by VirtualBox automatically](https://www.virtualbox.org/manual/ch06.html#network_hostonly).
+Furthermore, the test cluster uses the `192.168.87.0/24` subnet which is [not set up by VirtualBox automatically](https://www.virtualbox.org/manual/ch06.html#network_hostonly).
 To set the subnet up for use with VirtualBox, please make sure that `/etc/vbox/networks.conf` exists and that it contains this line:
 
 ```
-* 192.168.30.0/24
+* 192.168.87.0/24
 * fdad:bad:ba55::/64
 ```
 

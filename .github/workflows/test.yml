@@ -26,7 +26,7 @@ jobs:
         run: |-
           sudo mkdir -p /etc/vbox
           cat <<EOF | sudo tee -a /etc/vbox/networks.conf > /dev/null
-          * 192.168.30.0/24
+          * 192.168.87.0/24
           * fdad:bad:ba55::/64
           EOF
 
